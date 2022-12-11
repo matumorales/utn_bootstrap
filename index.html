@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Hoja de estilos-->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Layca Pet Shop - Alimentos Mascotas - Servicio - Distribución</title>
+  <!--Logo del sitio-->
+  <link rel="shortcut icon" href="img/Logo.png">
+</head>
+
+<body>
+  <!--Cabecera del Sitio-->
+  <header>
+  <!-- Barra de Navegación   -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">
+          <img id="imginicio" src="img/Logo_pet_shop.png" alt="Layca">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <h1 id="inicio">Bienvenidos a Layca Pet Shop</h1>
+  <!-- Carrusel con imagenes -->
+  <div id="carousel_1" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicadores/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carousel_1" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- Slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/Carousel_1.png" class="d-block w-100" alt="Imagen Carousel-Alimentos">
+        <div class="carousel-caption">
+          <h3>Alimentos</h3>
+          <p>Variados y para todas tus mascotas</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/Carousel_2.png" class="d-block w-100" alt="Imagen Carousel-Accesorios">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/Carousel_3.png" class="d-block w-100" alt="Imagen Carousel-Alimentos">
+      </div>
+    </div>
+
+    <!-- botones de control del Carousel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel_1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel_1" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!--Imagen de Portada de Inicio -->
+  <div>
+    <img id="portada_inicio" src="img/Portada Inicio.png" alt="portada_inicio">
+  </div>
+
+  <!--Principal-->
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12" id="nosotros">
+          <h2>Sobre Nosotros</h2>
+        </div>
+        <div class="col-sm-8">
+          <p> Somos una pequeña distribuidora que nos preocupamos por nuestros clientes y sus mascotas.
+            Por eso tratamos siempre de proveer un producto acorde a sus exigencias.
+            Nos especializamos en comercializar productos para todo tipo de mascotas.
+            Acompañamos año tras año a nuestros clientes en cada paso, potenciando sus ganas de crecer.
+            Gracias a nuestra atención personalizada y a la excelente calidad de los artículos, cada vez
+            más clientes nos eligen, sumando diversos beneficios para avanzar en conjunto.
+            Disponemos de un showroom exclusivo donde se exhiben todos nuestros productos y contamos con
+            una flota de logística propia.
+            Armamos los pedidos con el método picking que facilita la identificación y localización de los
+            artículos. Esto nos permite trabajar de forma precisa, seleccionar cada producto rápidamente y
+            lograr una entrega sin errores.
+            Además de ofrecer calidad, queremos acompañarte y asesorarte en cada etapa, enfocándonos en tu
+            desarrollo y construyendo todos los días un camino a tu lado.
+            Somos tu mayorista para crecer. Estamos a tu lado en todo momento.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/nosotros.png" alt="Sobre Nosotros" id="img_nosotros">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12" id="productos">
+          <h2>Nuestros Productos</h2>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/comida perros y gatos.jpg" alt="alimento para perros y gatos" id="img_alimentos">
+        </div>
+        <div class="col-sm-8" id="p_alimentos">
+          <p>Alimento para Perros y Alimento para Gatos. Sabemos lo importante que son. Las mascotas son parte de
+            nuestra vida. Nos dan amor incondicional y nos alegran cada día. Para ellos ofrecemos alimentos de alto
+            valor nutricional. Para que nuestras mascotas crezcan fuertes y sanas.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12" id="accesorios">
+          <h2>Accesorios</h2>
+        </div>
+        <div class="col-sm-8">
+          <p>La mejor calidad y variedad en accesorios para tu mascota la encontras en nuestro local. Si no lo tenemos,
+            vamos a ocuparnos en conseguirtelo, por que queremos que vos y tu mascota puedan disfrutar juntos.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/accesorios perros y gatos.jpg" alt="Accesorios mascotas">
+        </div>
+      </div>
+    </div>
+
+    <!--Formulario de Contacto-->
+    <div id="contacto" class="col-md-7 col-lg-8">
+      <h4 class="mb-3">Datos para contacto</h4>
+      <form class="needs-validation" novalidate="" action method="POST">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Ingrese su Apellido" value=""
+              required="">
+            <div class="invalid-feedback">
+              Se requiere ingresar un Apellido.
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Nombres</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Ingrese su Nombre" value="" required="">
+            <div class="invalid-feedback">
+              Se requiere ingresar un Nombre.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="micorreo@email.com">
+            <div class="invalid-feedback">
+              Por favor ingrese un E-mail valido.
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="address" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="address" placeholder="011-12345678">
+          </div>
+
+          <div class="col-12">
+            <label for="comment">Comentarios:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"
+              placeholder="Dejanos tus comentarios"></textarea>
+          </div>
+
+        </div>
+        <button class="w-25 btn btn-primary btn-lg" type="submit">Enviar</button>
+
+      </form>
+    </div>
+
+  </main>
+
+
+  <!--Pie-->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <img class="bi" src="img/logo_MI0_2.png" alt="MI0 Diseño Web" width="60" height="70">
+        <span class="mb-3 mb-md-0 text-muted">© 2022 MI0</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="https://twitter.com/?lang=es">
+            <img class="bi" src="img/twitter.png" alt="twitter" width="40" height="40">
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="https://www.instagram.com/">
+            <img class="bi" src="img/instagram.png" alt="twitter" width="40" height="40">
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="https://es-la.facebook.com/">
+            <img class="bi" src="img/facebook.png" alt="twitter" width="40" height="40">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <!--Bootstrap JS y Popper-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- 
+Todos nosotros sabemos algo. Todos nosotros ignoramos algo. Por eso, aprendemos siempre.
+Paulo Freyre 
+-->
